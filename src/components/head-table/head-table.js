@@ -3,7 +3,6 @@ import './head-table.css';
 import '../data-table/data-table.css'
 
 const HeadData= () => {
-    // return <h1 className='app-header'>Customers</h1>;
 
     return (
         <div className='container head-data-main'>
