@@ -103,9 +103,8 @@ export default class DataTable extends Component {
                     })
                 });
     }
-
+    //https://my.api.mockaroo.com/shop_customers.json?key=032062d0
     
-
     render() { 
         let {item, isLoaded,mark, selectedItem} = this.state;
         if (!isLoaded){
