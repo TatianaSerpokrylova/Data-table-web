@@ -1,0 +1,53 @@
+.one-list {
+  float: left;
+  width: 100%;
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+.one-list-marked {
+  float: left;
+  width: 100%;
+  padding: 0;
+  color: black;
+  text-align: left;
+  list-style: none;
+  background-color: rgb(231 198 79);
+}
+
+.list-id {
+  float: left;
+  width: 5%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.list-name {
+  float: left;
+  width: 45%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.list-birthday {
+  float: left;
+  width: 25%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.list-points {
+  float: left;
+  width: 25%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.without-padding {
+  padding-left: 0;
+}

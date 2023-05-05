@@ -1,0 +1,55 @@
+.head-data-text {
+  color: rgb(231 198 79);
+  text-align: center;
+}
+
+.head-data-main {
+  padding-top: 1rem;
+}
+
+.list-head-id {
+  float: left;
+  width: 5%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.list-head-name {
+  float: left;
+  width: 45%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.list-head-birthday {
+  float: left;
+  width: 25%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.list-head-points {
+  float: left;
+  width: 25%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+@media screen and (width <= 800px) {
+  .list-head-id,
+  .list-head-name,
+  .list-head-birthday,
+  .list-head-points {
+    height: 40pt;
+  }
+
+  .list-head-id,
+  .list-head-name,
+  .list-head-birthday {
+    line-height: 50px;
+  }
+}

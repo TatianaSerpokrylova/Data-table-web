@@ -1,0 +1,58 @@
+.add-panel-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 0.2rem;
+}
+
+.add-panel-input-box {
+  width: 70%;
+  margin-bottom: 10px;
+
+  /* padding-left: 0; */
+}
+
+.add-panel-btns-box {
+  width: 27%;
+  margin-bottom: 10px;
+}
+
+.add-panel-name {
+  float: left;
+  width: 45%;
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.add-panel-birthday {
+  float: left;
+  width: 30%;
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.add-panel-points {
+  float: left;
+  width: 15%;
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button-add {
+  position: relative;
+  top: 2px;
+  width: 26%;
+  height: 80%;
+  margin: 4px 3px;
+  border-radius: 9px;
+}
+
+@media screen and (width <= 800px) {
+  .add-panel-input-box,
+  .add-panel-btns-box {
+    width: 100%;
+  }
+}
