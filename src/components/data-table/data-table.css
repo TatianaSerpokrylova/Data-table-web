@@ -1,48 +1,53 @@
-.one-list{
-    list-style: none;
-    width: 100%;
-    float:left;
-    padding: 0px;
-    text-align: left;
-  }
-.one-list-marked  {
-  list-style: none;
+.one-list {
+  float: left;
   width: 100%;
-  float:left;
-  padding: 0px;
+  padding: 0;
   text-align: left;
-  background-color: rgb(231, 198, 79);
-  color: black;
+  list-style: none;
 }
 
-  .list-id{
-    list-style: none;
-    width: 5%;
-    border:1px solid white;
-    float:left;
-    text-align: center;
-  }
-  .list-name {
-    list-style: none;
-    width: 45%;
-    border:1px solid white;
-    float:left;
-    text-align:center;
-  }
-  .list-birthday {
-    list-style: none;
-    width: 25%;
-    border:1px solid white;
-    float:left;
-    text-align:center;
-  }
-  .list-points {
-    list-style: none;
-    width: 25%;
-    border:1px solid white;
-    float:left;
-    text-align:center;
-  }
-  .without-padding {
-    padding-left:0rem;
-  }
+.one-list-marked {
+  float: left;
+  width: 100%;
+  padding: 0;
+  color: black;
+  text-align: left;
+  list-style: none;
+  background-color: rgb(231 198 79);
+}
+
+.list-id {
+  float: left;
+  width: 5%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.list-name {
+  float: left;
+  width: 45%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.list-birthday {
+  float: left;
+  width: 25%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.list-points {
+  float: left;
+  width: 25%;
+  text-align: center;
+  list-style: none;
+  border: 1px solid white;
+}
+
+.without-padding {
+  padding-left: 0;
+}

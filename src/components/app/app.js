@@ -10,19 +10,11 @@ import './app.css'
 
 export default class App extends Component {
     
-    state = {
-        items: [
-            { num: 11,
-            name: "NNNNN FFFFFFFF",
-            birthday: "12.11.1995",
-            points: 300 }   
-        ]
-    }
     
 
     render () {
         return (
-            <div className="rowcol-lg-4 col-md-6 mx-auto">
+            <div className="md-auto mx-auto">
                 <AppHeader/>
                 <div className='row text-centre'>
                     <ul className='app-instructions'>
