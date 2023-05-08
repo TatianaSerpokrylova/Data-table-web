@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom/client";
 
-import AddPanel from "../AddPanel";
 import AppHeader from "../AppHeader";
 import DataTable from "../DataTable";
-import HeadData from "../HeadTable";
 import "./AppMain.css";
 
 export default class App extends Component {

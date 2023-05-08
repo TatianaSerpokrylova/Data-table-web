@@ -175,7 +175,6 @@ export default class DataTable extends Component {
         itemIdPrevious: this.state.selectedItem,
       }));
     }
-
   };
 
   //удаление строки из таблицы
