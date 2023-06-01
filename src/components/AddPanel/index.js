@@ -1,3 +1,3 @@
-import AddPanel from './AddPanel';
+import AddPanelWithHooks from './AddPanelWithHooks';
 
-export default AddPanel;
+export default AddPanelWithHooks;

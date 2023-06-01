@@ -15,24 +15,26 @@ export default class AddPanel extends Component {
     };
   }
 
-  handleNameChange = (event) => {
+  handleNameChange = event => {
     this.setState({ first_name: event.target.value });
   };
 
-  handleBirthdayChange = (event) => {
+  handleBirthdayChange = event => {
     this.setState({ birthday: event.target.value });
   };
 
-  handlePointsChange = (event) => {
+  handlePointsChange = event => {
     this.setState({ accumulated_points: event.target.value });
   };
   //первое нажатие Red - вывод данных в <input>
   //второе нажатие Red - редактированние данных в таблице
   redItem = (item, mark, id) => {
-    this.setState({ btnRedPressed: !this.state.btnRedPressed }); //поменять статус кнопки
+    //поменять статус кнопки
+    this.setState({ btnRedPressed: !this.state.btnRedPressed });
     //
     if (this.state.btnRedPressed) {
       this.props.onRedactItem(this.state);
+      console.log('передали');
     }
     if (mark)
       this.setState({

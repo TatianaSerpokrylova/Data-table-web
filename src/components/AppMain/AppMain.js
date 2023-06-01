@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import AppHeader from "../AppHeader";
-import DataTable from "../DataTable";
+import DataTableWithHooks from "../DataTable";
 import "./AppMain.css";
 
 export default class App extends Component {
@@ -27,7 +27,7 @@ export default class App extends Component {
             </li>
           </ul>
         </div>
-        <DataTable />
+        <DataTableWithHooks />
       </div>
     );
   }
