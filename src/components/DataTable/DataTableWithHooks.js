@@ -162,9 +162,10 @@ const DataTableWithHooks = () => {
   const [isLoaded, setLoadStatus] = useState(false);
   const [mark, markedItem] = useState(false);
   useEffect(() => {
-    // Выполняем запрос к серверу для получения данных и установите их с помощью setData
+    // Выполняем запрос к серверу для получения данных и устанавливаем их с помощью setData
     componentDidMount();
   }, []);
+
   useEffect(() => {
     markedItem(true);
   }, [selectItem]);
