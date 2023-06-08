@@ -1,0 +1,5 @@
+//файл-шаблон:
+test/fixtures
+**/app/public
+node_modules
+/* название файла */
